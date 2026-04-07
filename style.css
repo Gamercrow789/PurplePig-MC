@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rebeccapurple;
+    box-shadow: 0 5px 15px rebeccapurple;
+    color: white;
+    padding: 1rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.5s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-scrolled {
+    background-color: mediumpurple;
+    box-shadow: 0 5px 15px rebeccapurple;
+}
+
+.sections{
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+    scroll-margin-top: 65px;
+}
